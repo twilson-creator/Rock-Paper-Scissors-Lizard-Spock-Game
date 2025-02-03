@@ -30,31 +30,34 @@
                     <img id="computer-choice" src="assets/images/question.png" alt="Computer's choice">
                 </div>
             </div>
-            <div id="result">Choose your move!</div>
+            <div id="player-result">Choose your move!</div>
         </div>
 
-        <div class="controls">
+        <div class="computer-choice">
             <button class="choice-btn" data-choice="rock">
-                <img src="assets/images/rock.png" alt="Rock">
+                <img src="../assets/images/rock.png" alt="Rock">
                 Rock
             </button>
             <button class="choice-btn" data-choice="paper">
-                <img src="assets/images/paper.png" alt="Paper">
+                <img src="../assets/images/paper.png" alt="Paper">
                 Paper
             </button>
             <button class="choice-btn" data-choice="scissors">
-                <img src="assets/images/scissors.png" alt="Scissors">
+                <img src="../assets/images/scissors.png" alt="Scissors">
                 Scissors
             </button>
             <button class="choice-btn" data-choice="lizard">
-                <img src="assets/images/lizard.png" alt="Lizard">
+                <img src="../assets/images/lizard.png" alt="Lizard">
                 Lizard
             </button>
             <button class="choice-btn" data-choice="spock">
-                <img src="assets/images/spock.png" alt="Spock">
+                <img src="../assets/images/spock.png" alt="Spock">
                 Spock
             </button>
+            <div id="computer-move">Computer chose $MOVE</div>
         </div>
+
+        <div id="result">`$WINNINGMOVE beats $LOSINGMOVE. $WINNINGPLAYER wins!`</div>
 
         <div class="scoreboard">
             <div class="score">
